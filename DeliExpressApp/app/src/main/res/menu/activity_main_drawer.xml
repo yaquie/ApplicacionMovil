@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Registro Seccion" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Registro Restaurantes" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Registro Platos General" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Envio Notificaciones Usuarios" />
+
+
+        <item
+            android:id="@+id/nav_platos"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Registro Platos" />
+
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Registro Menu" />
+
+        <item
+            android:id="@+id/nav_promociones"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Registro Promociones" />
+
+        <item
+            android:id="@+id/nav_horarios"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Registro Horarios" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Reportes Restaurantes" />
+
+            <item
+                android:id="@+id/datos_restaurante"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Restaurante" />
+
+            <item
+                android:id="@+id/repor_cliente_rest"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Servicios" />
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Servicios" />
+
+            <item
+                android:id="@+id/nav_send_by"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Tipos de Pago" />
+
+            <item
+                android:id="@+id/nav_send_categoria"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Registro Categoria" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="express.deli.cosema.deliexpressapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".DeliAplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".main.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".menu.MenuActivity"
+            android:label="@string/title_activity_menu"></activity>
+        <activity
+            android:name=".restaurante.detalles.DetallesActivity"
+            android:label="@string/title_activity_detalles"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".platos.ListadoPlatoActivity"
+            android:label="Vista Platos"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".platos.registro.RegistroPlatosActivity"
+            android:label="Registro Platos"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".adminRest.categoria.CategoriaActivity"
+            android:label="Registro de Categoria"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".adminRest.restaurante.RestauranteActivity"
+            android:label="Datos Resturante"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity android:name=".adminRest.menu.MenuActivity"
+            android:label="Menu"
+            android:screenOrientation="portrait"
+            ></activity>
+    </application>
+
+</manifest>

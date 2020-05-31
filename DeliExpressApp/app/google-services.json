@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "242047202863",
+    "firebase_url": "https://deliexpress-9107a.firebaseio.com",
+    "project_id": "deliexpress-9107a",
+    "storage_bucket": "deliexpress-9107a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242047202863:android:cbdd7016fe14088d",
+        "android_client_info": {
+          "package_name": "express.deli.cosema.deliexpressapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242047202863-ql289nmbmldpsaqeldb80stu4ml4o0do.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7INr3VCK8sVNPV2o0mF9ioGz6eDtxuoE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
